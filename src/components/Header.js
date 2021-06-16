@@ -1,7 +1,11 @@
 import React from "react";
 
-function Header(props) {
-  return <h1>{/* hello from the Header! */}</h1>;
+function Header() {
+  const header = "hello from the Header!"
+  return 
+  <div>
+    <h1>{header}</h1>
+  </div>
 }
 
 export default Header;
